@@ -6,9 +6,11 @@
 // SOLUTION:
 
 function booleanToString(b){
-    if(b === true){
-      return "true";
-    }else{
-      return "false";
+    let str = ''
+    if(b === true) {
+      str = 'true'
+    } else {
+        str = 'false'
     }
-  }
+    return str
+}
