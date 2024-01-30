@@ -18,5 +18,5 @@ function isIsogram(str){
     const res = Array.from(newSet).join('')
     return str.length === res.length
   }
-
+ 
   console.log(isIsogram(''))
